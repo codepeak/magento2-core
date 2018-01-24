@@ -1,0 +1,21 @@
+{
+  "name": "codepeak/magento2-core",
+  "description": "",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "email": "robert@codepeak.se",
+      "name": "Robert Lord, Codepeak AB"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Codepeak\\Core\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
