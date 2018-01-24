@@ -1,7 +1,7 @@
 {
   "name": "codepeak/magento2-core",
   "description": "",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "email": "robert@codepeak.se",
