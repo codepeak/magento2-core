@@ -1,0 +1,14 @@
+@codepeakcore-icons-name : 'codepeak';
+@codepeakcore-icons-path: '@{baseDir}Codepeak_Core/fonts/@{codepeakcore-icons-name}/@{codepeakcore-icons-name}';
+
+.lib-font-face(
+  @family-name:@codepeakcore-icons-name,
+  @font-path: @codepeakcore-icons-path,
+  @font-weight: normal,
+  @font-style: normal
+);
+
+.admin__menu .item-codepeak.parent.level-0 > a:before {
+  font-family: @codepeakcore-icons-name;
+  content: "\0041";
+}
