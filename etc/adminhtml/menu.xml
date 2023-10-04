@@ -1,6 +1,12 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
 	<menu>
-		<add id="Codepeak::codepeak" title="Codepeak" module="Codepeak_CustomCheckoutMessages" sortOrder="68" resource="Magento_Backend::content"/>
+		<add id="Codepeak::codepeak" title="Codepeak" module="Codepeak_Core" sortOrder="68" resource="Magento_Backend::content"/>
+
+		<!-- Parent/Container Menu Item -->
+		<add id="Codepeak::codepeak_header" title="Codepeak" module="Codepeak_Core" sortOrder="9999" parent="Codepeak::codepeak" resource="Codepeak_Core::general"/>
+
+		<!-- Child Menu Items -->
+		<add id="Codepeak::codepeak_about" title="About" module="Codepeak_Core" sortOrder="0" parent="Codepeak::codepeak_header" action="admin/system_config/edit/section/codepeakcore" resource="Codepeak_Core::general" />
 	</menu>
 </config>
