@@ -1,7 +1,7 @@
 <?php
 /**
  * Copyright © Codepeak AB All rights reserved.
- * See COPYING.txt for license details.
+ * See LICENSE.txt for license details.
  */
 declare(strict_types=1);
 

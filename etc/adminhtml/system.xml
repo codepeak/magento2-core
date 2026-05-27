@@ -8,7 +8,7 @@
             <class>separator-top</class>
             <label>About Us</label>
             <tab>codepeak</tab>
-            <resource>Codepeak_Core::general</resource>
+            <resource>Codepeak_Core::config</resource>
             <group id="general" translate="label" type="text" sortOrder="9999" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Codepeak AB</label>
                 <field id="codepeakcore" translate="label comment" showInDefault="1" showInWebsite="1" showInStore="1">

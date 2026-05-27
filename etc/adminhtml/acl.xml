@@ -3,13 +3,15 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Codepeak::core" title="Codepeak Core" sortOrder="10">
-                    <resource id="Codepeak_Core::codepeak_about" title="About" sortOrder="10" />
+                <resource id="Codepeak_Core::core" title="Codepeak" sortOrder="10">
+                    <resource id="Codepeak_Core::general" title="General" sortOrder="10">
+                        <resource id="Codepeak_Core::config" title="Configuration" sortOrder="10" />
+                    </resource>
                 </resource>
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Codepeak_Core::core_config" title="Codepeak Section" sortOrder="20" />
+                            <resource id="Codepeak_Core::config" title="Codepeak" sortOrder="20" />
                         </resource>
                     </resource>
                 </resource>

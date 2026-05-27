@@ -1,6 +1,6 @@
 {
   "name": "codepeak/magento2-core",
-  "description": "",
+  "description": "Base module for Codepeak Magento 2 extensions",
   "license": "GPL-3.0-or-later",
   "authors": [
     {
@@ -8,8 +8,9 @@
       "name": "Robert Lord, Codepeak AB"
     }
   ],
-  "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "magento/framework": "*"
+  },
   "autoload": {
     "psr-4": {
       "Codepeak\\Core\\": ""
