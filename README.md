@@ -14,6 +14,10 @@ For questions, bug reports, or feature requests, please contact [support@codepea
 
 ## Changelog
 
+### 2.0.2 - 2026-05-27
+
+- Version bump to match git tag
+
 ### 1.1.0 - 2023-10-04
 
 - New menu option inside Magento Admin
